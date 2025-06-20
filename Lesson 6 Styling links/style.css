@@ -1,0 +1,23 @@
+body {
+    padding: 10%;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    color: blue;
+    cursor: pointer;
+}
+
+a:visited {
+    color: gold;
+}
+
+a:hover,
+:focus {
+    color: grey;
+}
+
+a:active {
+    color: red;
+}

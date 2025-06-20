@@ -1,0 +1,35 @@
+body {
+    padding: 5% 10%;
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darkmagenta;
+    word-spacing: 0.35em;
+}
+
+ol {
+    list-style-type: decimal-leading-zero;
+    line-height: 1.45;
+}
+
+ul {
+    text-align: left;
+    list-style-type: square;
+    color: firebrick;
+    line-height: 1.6;
+    list-style-position: inside;
+}
+
+ul ::marker {
+    content: "Only $5 >> ";
+    color: navy;
+    font-family: 'Times New Roman', Times, serif;
+}
