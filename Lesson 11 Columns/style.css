@@ -31,3 +31,7 @@ body {
     color: forestgreen;
     column-span: all;
 }
+
+.nowrap {
+    white-space: nowrap;
+}
