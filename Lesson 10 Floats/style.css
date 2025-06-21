@@ -1,0 +1,16 @@
+body {
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.block {
+    width: 30vw;
+    height: 30vw;
+    background-color: coral;
+    padding: 1rem;
+}
+
+.left {
+    float: left;
+    margin-right: 0.8rem;
+}
