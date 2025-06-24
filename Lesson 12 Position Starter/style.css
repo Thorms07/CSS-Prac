@@ -64,6 +64,10 @@ body {
 
 /* ////////////////////////// */
 
+html {
+    scroll-behavior: smooth;
+}
+
 section {
     height: 100vh;
 }
@@ -98,4 +102,18 @@ footer {
     position: sticky;
     bottom: 0;
     font-size: 2.5rem;
+}
+
+a:visited {
+    color: whitesmoke;
+}
+
+.social {
+    background-color: salmon;
+    color: white;
+    font-size: inherit;
+    padding: 1rem;
+    position: fixed;
+    top: 40%;
+    left: 0;
 }
