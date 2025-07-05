@@ -12,7 +12,7 @@ body {
 .container {
     min-height: 400px;
     display: grid;
-    grid-template-columns: 200px 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr 2fr);
     grid-auto-rows: minmax(150px, auto);
     gap: 1rem;
 }
@@ -23,3 +23,24 @@ body {
     font-size: 2rem;
     padding: 0.5rem;
 }
+
+.box:first-child {
+    background-color: cadetblue;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+    display: grid;
+   /*  align-content: center;
+    justify-content: center; */
+    place-content: center;
+}
+
+.box:nth-child(2) {
+    background-color: chocolate;
+    /* shorthand code grid layout */
+    grid-column: 1 /5;
+    grid-row: 3 / 4;
+}
+
