@@ -11,8 +11,8 @@ body {
 }
 
 .container {
-    max-width: 700px;
-    min-height: 350px;
+    max-width: 800px;
+    min-height: 400px;
     margin-inline: auto;
     border: 1px solid black;
     display: flex;
@@ -40,5 +40,5 @@ body {
 
 .box:nth-child(2) {
         flex: 2 2 150px;
-        order: 4;
+        order: 2;
 }
