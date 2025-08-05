@@ -63,6 +63,7 @@ div:hover {
     /* transition-property: background-color, transform;
     transition-duration: 2s, 3s;
     transition-delay: 0.5s; */
+     
     transition: all 2s 0.5s; /* Short Hand code */
 }
 
@@ -71,13 +72,15 @@ div:last-child:hover {
 }
 
 .animate {
-    animation-name: slide;
+   /*  animation-name: slide;
     animation-duration: 5s;
     animation-timing-function: ease-in-out;
     animation-delay: 1s;
     animation-iteration-count: 3;
     animation-direction: alternate;
-    animation-fill-mode: forwards;
+    animation-fill-mode: forwards; */
+
+    animation: 5s ease-in-out 1s 2 normal forwards slide; /* Short hand code */
 }
 
 @keyframes slide {
