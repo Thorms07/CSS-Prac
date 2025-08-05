@@ -39,7 +39,7 @@ div:first-child {
    /*  transform: translateX(-50%); */
   /*  transform: rotateX(180deg); */
  /*  transform: scaleX(120%); */
- transform: skewX(-10deg);
+/*  transform: skewX(-10deg); */
 }
 
 div:nth-child(2) {
@@ -47,6 +47,7 @@ div:nth-child(2) {
    /*  transform: translateY(-1.5rem); */
    /* transform: rotateY(180deg); */
    /* transform: scaleY(120%); */
+   /* transform: skewY(10deg); */
 }
 
 div:last-child {
@@ -54,4 +55,11 @@ div:last-child {
     /* transform: translate(100%, -2rem); */
    /*  transform: rotateZ(45deg); */
     /* transform: scale(50%, 50%); */
+    /* transform: skew(-10deg, -10deg); */
+}
+
+div:hover {
+    background-color: midnightblue;
+    transition-property: background-color;
+    transition-duration: 2s;
 }
